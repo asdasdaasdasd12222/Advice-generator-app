@@ -19,7 +19,7 @@ body{
     font-family: 'Manrope';
     max-width: 500px;
     min-width: 350px;
-    height: max-content;
+    height: 332px;
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
@@ -28,11 +28,9 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
     .generate{
-        margin-top: 15px;
-        width: 64px;
-        height: 64px;
+        padding: 20px;
+        transform: translateY(50%);
         background-color: #53FFAA;;
         border-radius: 100%;
         transition: 0.3s;

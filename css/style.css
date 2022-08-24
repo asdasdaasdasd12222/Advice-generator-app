@@ -28,9 +28,7 @@ body {
   font-family: "Manrope";
   max-width: 500px;
   min-width: 350px;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  height: 332px;
   padding-top: 20px;
   padding-bottom: 20px;
   -webkit-box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
@@ -49,12 +47,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 25px;
 }
 .container .generate {
-  margin-top: 15px;
-  width: 64px;
-  height: 64px;
+  padding: 20px;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
   background-color: #53FFAA;
   border-radius: 100%;
   -webkit-transition: 0.3s;
